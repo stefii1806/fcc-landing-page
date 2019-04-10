@@ -1,51 +1,70 @@
 
-#header {
-  display: flex;
-  vertical-align: middle;
+body {
+  background-color: white;
+  margin: 2rem 7rem 0 7rem;
+}
+
+.brand {
+  width: 7%;
 }
 
 #header-img {
-  width: 12%;
+  width: auto;
   height: auto;
-  display: block;
-
-}
-
-.name {
-  display: inline;
+  max-width: 100%;
+  object-fit: scale-down;
 }
 
 #nav-bar {
-  vertical-align: middle;
+  display: flex;
+  position: fixed;
+  top: 0;
+  margin-bottom: 3rem;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(238, 229, 229, 1) 53%, rgba(175, 181, 185, 1) 92%);
+  font-family: 'Anonymous Pro', monospace;
+  z-index: 1;
 }
+
+.list {
+  display: inline-block;
+  /* align-items: center; */
+}
+
 .nav-link {
   text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
-
-}
-
-li{
-  display: inline;
-  vertical-align: middle;
-
-}
-
-div {
-  border: 2px solid red;
+  display: flex;
 }
 
 /* Subscription */
 #subscribe {
-  margin: 2rem 5rem 2rem 5rem;
+  margin: 9rem 0;
+  font-family: 'Special Elite', cursive;
+}
+
+h4 {
+  text-align: center;
 }
 
 h3 {
-  text-align:center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.p-1 {
+  text-align: center;
+}
+
+button {
+  margin: 0 auto;
 }
 
 #form {
@@ -53,61 +72,162 @@ h3 {
   flex-flow: column;
 }
 
-#email, #submit {
-    margin:1rem auto 0 auto;
+#email {
+  width: 30%;
+}
 
+#email, #submit {
+  margin: 1rem auto 0 auto;
+}
+
+#submit {
+  font-family: 'Molengo', sans-serif;
+  background-color: #eee5e5;
+  border-radius: 5px;
+  padding: 1% 2%;
+  font-size: 1rem;
 }
 
 /* About */
 #about {
   margin: 5rem;
-}
-#music {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: 'Special Elite', cursive;
 }
 
-.icon-music, .description-music {
-  display: inline;
-  }
+.music {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.drawings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.life {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-music, .icon-drawings, .icon-life {
+  font-size: 3rem;
+  padding: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  padding: 1% 3%;
+  margin: 0;
+}
+
+p {
+  font: 1rem;
+  padding: 1% 3%;
+}
 
 /* Video */
 .video-sect {
-  margin: 2rem 5rem 2rem 5rem;
+  margin-bottom: 5rem;
 }
+
 .video {
   text-align: center;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
 #video {
-  /* padding: 10%; */
-
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
-
 
 /* Tickets */
-#tickets {
-  margin: 2rem 5rem;
+.get {
+  margin-bottom: 0;
+  font-family: 'Special Elite', cursive !important;
 }
-.prices {
-  display: flex;
-  justify-content: space-around;
-  padding: 5%;
 
+#tickets {
+  margin: 2rem;
+  font-family: 'Anonymous Pro', monospace;
+  margin-top: 0;
+}
+
+h4 {
+  background-color: grey;
+  margin-top: 0;
+  padding: 7% 2%;
+}
+
+.prices {
+  font-family: 'Molengo', sans-serif;
+  margin: 3% 7%;
+}
+
+@media (min-width: 572px) {
+  .prices {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 1rem;
+    /* margin: 1rem auto; */
+  }
 }
 
 .box-1, .box-2, .box-3 {
   text-align: center;
-  display: inline;
+  border: 1px solid grey;
+  font-size: 1.5rem;
+  margin: 1rem 1rem;
+}
+
+button {
+  margin: 7% 7%;
+  padding: 5%;
+  font-family: 'Molengo', sans-serif;
+  background-color: #eee5e5;
+  border-radius: 3px;
+  width: 50%;
+  font-size: 1rem;
+}
+
+button:hover {
+  font-weight: bold;
 }
 
 /* Footer */
-
 .footer {
   margin: 2rem 4rem 0 4rem;
+  font-family: 'Anonymous Pro', monospace;
 }
+
 .links, .cr {
   text-align: right;
-  padding-right: 3%;
+  color: black;
+}
+
+footer {
+  background: #d3d3d3;
+  padding-bottom: 0.3rem;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: black;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
 }
