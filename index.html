@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>Scott Hutchison</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Actor|Anonymous+Pro|Armata|Jaldi|Molengo|Special+Elite" rel="stylesheet">
   <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
   <!-- Font Awesome -->
@@ -11,138 +13,143 @@
 </head>
 
 <body>
-  <!-- Header -->
-  <header id="header">
-    <div class="brand">
-      <img id="header-img" src="images\rabbit.jpg" alt="scotts-drawing">
-    </div>
-    <div class="name">
-      <h4>Scott Hutchison</h4>
-    </div>
 
-    <!-- Navbar -->
-    <nav id="nav-bar">
-      <ul>
-        <li><a href="#" class="nav-link">About</a></li>
-        <li><a href="#" class="nav-link">Watch</a></li>
-        <li><a href="#" class="nav-link">Tickets</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Suscribe -->
-  <section id="subscribe">
-    <div class="subscribe">
-      <h3>Subscribe to get the latest news!</h3>
-    </div>
-    <div class="form">
-      <form id="form">
-        <input id="email" type="email" name="email" value="" placeholder="Enter your email adress">
-        <button id="submit" type="button" name="button">Suscribe</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- About -->
-  <section id="about">
-    <div class="music">
-      <div class="icon-music">
-        <i class="fas fa-music"></i>
-      </div>
-      <div class="description-music">
-        <h5>Music</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-    </div>
-    <div class="drawing">
-      <div class="icon-drawing">
-        <i class="fas fa-pencil-alt"></i>
-      </div>
-      <div class="description-drawing">
-        <h5>Drawings</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-    </div>
-    <div class="life">
-      <div class="description-life">
-        <i class="fas fa-guitar"></i>
-      </div>
-      <div class="description-music">
-        <h5>Life</h5>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Video -->
-  <section class="video-sect">
-    <div class="video">
-      <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/I51BLLPTS-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
-  </section>
-
-  <!-- Tickets -->
-  <section id="tickets">
-    <h3>Get tickets for the upcoming show</h3>
-    <div class="prices">
-      <!-- Box One -->
-      <div class="box-1">
-        <div class="location">
-          <h4>LOCATION ONE</h4>
+  <!-- Page wrapper -->
+  <div class="p-wrap">
+    <!-- Header -->
+    <header id="header">
+      <!-- Navbar -->
+      <nav id="nav-bar">
+        <div class="brand">
+          <img id="header-img" src="images\rabbit.jpg" alt="frightened-rabbit">
         </div>
-        <div class="price">
-          <h3>$100</h3>
-          <p>Lorem ipsum dolor</p>
-          <p>sit amet, consectetur</p>
-          <p>adipisicing elit, sed do</p>
+        <div class="list">
+          <ul>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#video-ref" class="nav-link">Watch</a></li>
+            <li><a href="#tickets" class="nav-link">Tickets</a></li>
+          </ul>
         </div>
-        <button type="button" name="button">Buy</button>
-      </div>
-      <!-- Box Two -->
-      <div class="box-2">
-        <div class="location">
-          <h4>LOCATION TWO</h4>
-        </div>
-        <div class="price">
-          <h3>$130</h3>
-          <p>Lorem ipsum dolor</p>
-          <p>sit amet, consectetur</p>
-          <p>adipisicing elit, sed do</p>
-        </div>
-        <button type="button" name="button">Buy</button>
-      </div>
-      <!-- Box Three -->
-      <div class="box-3">
-        <div class="location">
-          <h4>LOCATION THREE</h4>
-        </div>
-        <div class="price">
-          <h3>$150</h3>
-          <p>Lorem ipsum dolor</p>
-          <p>sit amet, consectetur</p>
-          <p>adipisicing elit, sed do</p>
-        </div>
-        <button type="button" name="button">Buy</button>
-      </div>
-    </div>
-  </section>
+      </nav>
+    </header>
 
-  <!-- Footer -->
-  <footer>
-    <div class="footer">
-      <div class="links">
-        <ul>
-          <li><a href="#">one</a></li>
-          <li><a href="#">two</a></li>
-          <li><a href="#">three</a></li>
-        </ul>
+    <!-- Suscribe -->
+    <section id="subscribe">
+      <div class="subscribe">
+        <h3>Subscribe to get the latest news!</h3>
       </div>
-      <div class="cr">
-        <h4>Copyright 2019.</h4>
+      <div class="form">
+        <form id="form" action="https://www.freecodecamp.org/email-submit">
+          <input id="email" type="email" name="email" value="" placeholder="Enter your email adress">
+          <input id="submit" type="submit" class="button" value="Subscribe"></input>
+        </form>
       </div>
-    </div>
+    </section>
 
-  </footer>
+    <!-- About -->
+    <section id="about">
+      <!-- <div class="container"> -->
+      <div class="music">
+        <div class="icon-music">
+          <i class="fas fa-music"></i>
+        </div>
+        <div class="description-music">
+          <h5>Music</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="drawings">
+        <div class="icon-drawings">
+          <i class="fas fa-pencil-alt"></i>
+        </div>
+        <div class="description-drawings">
+          <h5>Drawings</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <div class="life">
+        <div class="icon-life">
+          <i class="fas fa-guitar"></i>
+        </div>
+        <div class="description-life">
+          <h5>Life</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <!-- Video -->
+    <section class="video-sect" id="video-ref">
+      <div class="video">
+        <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/I51BLLPTS-s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Tickets -->
+    <section id="tickets">
+      <h3 class="get">Get tickets for the upcoming show</h3>
+      <div class="prices">
+        <!-- Box One -->
+        <div class="box-1">
+          <div class="location">
+            <h4>LOCATION ONE</h4>
+          </div>
+          <div class="price">
+            <h3>$100</h3>
+            <p class="p-1">Lorem ipsum dolor</p>
+            <p class="p-1">sit amet, consectetur</p>
+            <p class="p-1">adipisicing elit, sed do</p>
+          </div>
+          <button type="button" name="button">Buy</button>
+        </div>
+        <!-- Box Two -->
+        <div class="box-2">
+          <div class="location">
+            <h4>LOCATION TWO</h4>
+          </div>
+          <div class="price">
+            <h3>$130</h3>
+            <p class="p-1">Lorem ipsum dolor</p>
+            <p class="p-1">sit amet, consectetur</p>
+            <p class="p-1">adipisicing elit, sed do</p>
+          </div>
+          <button type="button" name="button">Buy</button>
+        </div>
+        <!-- Box Three -->
+        <div class="box-3">
+          <div class="location">
+            <h4>LOCATION THREE</h4>
+          </div>
+          <div class="price">
+            <h3>$150</h3>
+            <p class="p-1">Lorem ipsum dolor</p>
+            <p class="p-1">sit amet, consectetur</p>
+            <p class="p-1">adipisicing elit, sed do</p>
+          </div>
+          <button type="button" name="button">Buy</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer">
+        <div class="links">
+          <ul>
+            <li class="l-2"><a href="#">info</a></li>
+            <li class="l-2"><a href="#">frightened rabbit</a></li>
+            <li class="l-2"><a href="#">owl john</a></li>
+          </ul>
+        </div>
+        <div class="cr">
+          <h6>Copyright 2017, Scott Hutchison.</h6>
+        </div>
+      </div>
+    </footer>
+
+
 </body>
+</div>
 
 </html>
