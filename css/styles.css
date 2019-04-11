@@ -1,7 +1,6 @@
-
 body {
   background-color: white;
-  margin: 2rem 7rem 0 7rem;
+  margin: 2rem 4rem 0 4rem;
 }
 
 .brand {
@@ -172,22 +171,30 @@ h4 {
 .prices {
   font-family: 'Molengo', sans-serif;
   margin: 3% 7%;
+
 }
 
 @media (min-width: 768px) {
   .prices {
     display: flex;
+    /* max-width: 300px; */
+    width: 100%;
     justify-content: space-around;
     margin: 1rem 1rem;
     /* margin: 1rem auto; */
   }
 }
 
+.p-1 {
+  padding: 1rem 3rem; ;
+}
+
 .box-1, .box-2, .box-3 {
   text-align: center;
   border: 1px solid grey;
   font-size: 1.5rem;
-  margin: 1rem 1rem;
+  margin: 1rem 0.3rem;
+  min-width: 300px;
 }
 
 button {
@@ -232,3 +239,4 @@ a {
   display: flex;
   justify-content: flex-end;
 }
+
